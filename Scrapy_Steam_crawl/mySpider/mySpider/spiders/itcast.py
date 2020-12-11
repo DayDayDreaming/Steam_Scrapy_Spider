@@ -28,7 +28,7 @@ class ItcastSpider(scrapy.Spider):
     total_page = int(total_page[0].text)
     total_page += 1
 
-    for page in range(1, 2):
+    for page in range(1, total_page):
         start_urls.append(base_url.format(page))
         # break
 
