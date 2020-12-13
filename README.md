@@ -1,5 +1,5 @@
 # Steam_Scrapy_Spider
-## 本项目仅供学习交流使用，禁止商用！
+
 Collect all game data from Steam
 
 ### 系统版本：centos 8.1  
