@@ -35,6 +35,6 @@ class SteamItem(scrapy.Item):
 #### 分布式爬虫部署:  
 + 使用gerapy进行调度分配  
   
-##### 特别致谢:Stackoverflow论坛的各位大佬们  
+##### 特别致谢:Stackoverflow论坛大佬
 
  
