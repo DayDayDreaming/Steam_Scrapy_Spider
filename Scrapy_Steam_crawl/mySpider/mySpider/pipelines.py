@@ -25,10 +25,10 @@ class JsonWithEncodingPipeline(object):
         self.file.close()
         pass
 
-
+#写入Mysql
 class WriteMysql(object):
     def open_spider(self,spider):
-        self.conn = pymysql.Connection(host='127.0.0.1',port=3306,user='root',password='123456',db='Steam',charset='utf8')
+        self.conn = pymysql.Connection(host='127.0.0.1',port=3306,user='admin',password='admin',db='Steam',charset='utf8')
         print(self.conn)
         self.cursor = self.conn.cursor()
         sql = """CREATE TABLE IF NOT EXISTS Steam_Data (
